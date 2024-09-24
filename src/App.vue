@@ -16,9 +16,14 @@ export default {
     return {
       /* eslint-disable no-useless-escape */
       input: String.raw`### Dollar
+
 $a^2+b^2=c^2$
 
+$a^2+b^2=c^2$ (1)
+
 $$a^2+b^2=c^2$$
+
+$$a^2+b^2=c^2$$ (1)
 
 $$
 a^2+b^2=c^2
@@ -31,7 +36,11 @@ $$\text{Cl}_2 + \text{S}^{2-} = \text{S}↓ + 2\text{Cl}^-$$
 
 \(a^2+b^2=c^2\)
 
+\(a^2+b^2=c^2\)
+
 \[a^2+b^2=c^2\]
+
+\[a^2+b^2=c^2\] (1)
 
 \[
 a^2+b^2=c^2

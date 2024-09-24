@@ -27,6 +27,9 @@ a^2+b^2=c^2
 \[\text{Cl}_2 + \text{S}^{2-} = \text{S}↓ + 2\text{Cl}^-\]
 ```
 
+Compared with katex, it can support more mathematical formulas or chemical formulas
+- https://waylonflinn.github.io/markdown-it-katex/
+
 ## Project setup
 ```
 yarn install
